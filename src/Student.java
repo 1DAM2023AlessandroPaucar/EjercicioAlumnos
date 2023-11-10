@@ -1,7 +1,9 @@
+import java.util.ArrayList;
 public class Student {
     private String id;
     private String name;
     private String surname;
+    private Enroll enroll;
 
     public String getId() {
         return id;
@@ -11,7 +13,7 @@ public class Student {
         this.id = id;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
@@ -19,11 +21,19 @@ public class Student {
         this.name = name;
     }
 
-    public String getSurname(){
+    public String getSurname() {
         return surname;
     }
 
     public void setSurname(String surname) {
         this.surname = surname;
+    }
+
+    public Enroll getEnroll() {
+        return enroll;
+    }
+
+    public void setEnroll(Enroll enroll) {
+        this.enroll = enroll;
     }
 }
