@@ -10,16 +10,16 @@ public class Main {
         student1.setSurname("Villalba");
 
         //--Cursos
-        Year year = new Year();
-        year.setCode("001");
-        year.setName("1º DAM");
+        Year year1 = new Year();
+        year1.setCode("001");
+        year1.setName("1º DAM");
 
         //--Asignaturas
 
         Subject subject = new Subject();
         subject.setCode("001");
         subject.setName("Entornos de Desarollo");
-        subject.setYear(year);
+        subject.setYear(year1);
 
         //Enroll
 
